@@ -1,4 +1,4 @@
-FROM maven:3-openjdk-11
+FROM maven:3-eclipse-temurin-22-alpine
 
 COPY . /build
 COPY ./settings.xml /root/.m2/settings.xml

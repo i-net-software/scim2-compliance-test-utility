@@ -1,0 +1,11 @@
+# version: '2.1'
+
+services:
+
+    # Build the Data Image from the current folder
+    # It contains
+    scim2-client:
+        image: "inetsoftware/scim2-test-client"
+        build: .
+        ports:
+          - 8080
